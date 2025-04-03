@@ -1,5 +1,4 @@
 
-import Person1 from "./Person1";
 function Person(props){
 
     return(
@@ -8,7 +7,6 @@ function Person(props){
 
             <p>{props.children}</p>
 
-            
 
         </div>
     )

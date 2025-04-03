@@ -1,15 +1,14 @@
 
-import Person1 from './Components/Person1';
+import Male3 from './Components/Male3';
 
 function App() {
   return (
-    <div className="App">
+    <div>
 
-  <Person1 sname="MS Dhoni">I am from Ranchi.</Person1>
+  <Male3 sname="MS Dhoni">I am from Ranchi.</Male3>
 
-  <Person1 sname="Virat Kohli">I am from Delhi.</Person1>
 
     </div>
   );
 }
-export default App;
+export default App;  

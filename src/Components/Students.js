@@ -5,7 +5,7 @@ function Student(props){
     return(
         <div>
             {props.sname}
-
+            
             <p>{props.children}</p>
 
             <Picture pic="pic/1.jpg"></Picture>
