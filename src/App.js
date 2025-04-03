@@ -1,12 +1,12 @@
 
-
-import Home from './Components/Home';
+import Sign from './Components/Sign';
 
 function App() {
   return (
-    <div>
-      <Home></Home>
-      <img className='col' src='pic/1.jpg'></img>
+    <div className="App">
+  
+     <Sign></Sign>
+
     </div>
   );
 }
