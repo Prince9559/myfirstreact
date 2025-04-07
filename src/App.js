@@ -1,12 +1,10 @@
-
-import Male3 from './Components/Male3';
+import Sub from './Components/Sub';
+import './App.css';
 
 function App() {
   return (
-    <div>
-
-  <Male3 sname="MS Dhoni">I am from Ranchi.</Male3>
-
+    <div className="App">
+<Sub></Sub>
 
     </div>
   );
