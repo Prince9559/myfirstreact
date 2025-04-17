@@ -17,7 +17,7 @@ function App() {
 
 
      <Product sname="Coconut" pic="pic/coco.jpg"></Product>
-     <Product sname="Mango" pic="pic/mang.jpg"></Product>
+     <Product sname="Mango" pic="pic/mango.jpg"></Product>
      <Product sname="Book" pic="pic/book.jpg"></Product>
      <Product sname="Banana" pic="pic/banana.jpg"></Product>
      <Product sname="Orange" pic="pic/orange..jpg"></Product>
