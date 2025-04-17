@@ -1,0 +1,129 @@
+.col{
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.col2{
+    width: 90px;
+    height: 40px;
+    margin-top: 6px;
+    border-radius: 50px;
+    border: 0.5px solid blue;
+
+}
+.col2:hover{
+    background-color: green;
+    box-shadow: 0px 0px 10px blue;
+}
+.search-icon{
+    position: absolute;
+    left: 359px;
+    top: 93px;
+}
+
+
+@keyframes move {
+    0% {
+        left: 0%;
+        top: 0%;
+    }
+
+    25% {
+
+        left: 94%;
+        top: 0%;
+    }
+
+    50% {
+        left: 94%;
+        top: 85%;
+    }
+
+    75% {
+        left: 0%;
+        top: 85%;
+    }
+    100%{
+    left: 0%;
+    top:0%;
+    }
+}
+
+.ball{
+
+    position: absolute;            
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    animation-name: move;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+}
+.ball:hover{
+background-color: green;
+border-color: yellow;
+box-shadow: 0px 0px 25px yellow;
+}
+.col4{
+    background-color:yellow;
+    width:500px;
+    height: 290px;
+    margin-left: 390px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px blue;
+    
+}
+.col4:hover{
+    background-color: aqua;
+    border-color: blue;
+    box-shadow: 0px 0px 25px blue;
+
+}
+.col5{
+    background-color: yellow;  
+    box-shadow: 0px 0px 30px blue; 
+}
+.col6{
+    position: absolute;
+    top: 240px;
+    width: 150px;
+    height: 150px;
+}
+
+@keyframes borderFade {
+    0%, 100% { border-color:transparent; }
+    50% { border-color: #2ecc71; }
+  }
+  
+  .fading-border {
+    border: 2px solid green;
+    border-radius: 30px;
+    width: 550px;
+    height: 35px;
+    font-size: 24px;
+    color:black;
+    animation: borderFade 2s infinite ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 0px 35px;
+    margin-left: 350px;    
+  }
+.fading-border:focus{
+    border-color: blue;
+    box-shadow: 0px 0px 25px blue;
+}
+.col7{
+    width: 90px;
+    height: 40px;
+    border-radius: 50px;
+
+}
+.col8{
+    width: 90px;
+    height: 40px;
+    border-radius: 50px;
+    position: absolute;
+    top: 151px;
+}   

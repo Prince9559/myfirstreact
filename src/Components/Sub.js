@@ -54,13 +54,13 @@ function Sub() {
                 
             <div className='radio'>
                 
-            <label style={{marginLeft:"-50px"}}>
+            <label style={{marginLeft:"20px"}}>
 
             <input type='radio'name='c' value='add' onChange={(e)=> setOperator(e.target.value)}></input>Add 
 
             </label>
 
-             <label style={{marginLeft:"10px"}}>
+             <label style={{marginLeft:"60px"}}>
 
             <input type='radio' name='c' value='sub' onChange={(e)=>setOperator(e.target.value)}></input>Sub
             
