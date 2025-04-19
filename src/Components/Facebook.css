@@ -1,0 +1,225 @@
+
+.col{
+    background-color: white;
+    width: 490px;
+    height: 600px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1.5px solid blue;
+    box-shadow: 0px 0px 12px blue;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.line{
+    position: absolute;
+    margin-top: 60px;
+    color: black;
+}
+.facebook{
+    color: blue;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 175px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.p{
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 138px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.pra{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 190px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.input{
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.int{
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 265px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.date{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 30px;
+}
+.day{
+    width: 138px;
+    height: 30px;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 29px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.month{
+    width: 138px;
+    height: 30px;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 179px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.year{
+    width: 138px;
+    height: 30px;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 329px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.gender{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 30px;
+}
+
+body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+  }
+
+  .gender-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 30px;
+  }
+
+  .gender-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 8px;
+    width: 120px;
+    height: 18px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+.mobile{
+    width: 430px;
+    height: 30px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 280px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.password{
+    width: 430px;
+    height: 30px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 340px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.peo{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 381px;
+    font-size: 13px;
+}
+.pp{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 400px;
+    font-size: 13px;
+}
+.learn{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 90px;
+    font-size: 13px;
+}
+.detail{
+    position: absolute;
+    margin-top: 440px;
+    margin-left: 30px;
+    font-size: 13px;
+}
+.trem{
+    position: absolute;
+    margin-top: 442px;
+    margin-left: 243px;
+    font-size: 13px;
+}
+.privacy{
+    position: absolute;
+    margin-top: 442px;
+    margin-left: 285px;
+    font-size: 13px;
+}
+.an{
+    position: absolute;
+    margin-top: 442px;
+    margin-left: 368px;
+    font-size: 13px;
+    
+}
+.policy{
+    
+    position: absolute;
+    margin-top: 442px;
+    margin-left: 390px;
+    font-size: 13px;
+}
+.data{
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 30px;
+    font-size: 13px;
+}
+.butt{
+    width: 200px;
+    height: 35px;
+    background-color:green;
+    border: 1px solid rgba(34, 128, 0, 0.87);
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 510px;
+    margin-left: 148px;
+    font-size: 20px;
+    color: #fff;
+}
+.fine{
+    position: absolute;
+    margin-top: 565px;
+    margin-left: 156px;
+}

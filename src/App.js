@@ -1,30 +1,25 @@
-import Product from './Components/Product';
-import './Components/Product';
+  import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Face from './Components/Face';
+import Facebook from './Components/Facebook';
+import Already from './Components/Already';
+import Forget from './Components/Forget';
+import './App.css';
 
-// import Sub from "./Components/Sub";
 function App() {
   return (
-    
-    
-    
-     <div className='container'>  
-     
-     <Product sname="Men's Facewash" pic="pic/men.jpg"></Product>
-     <Product sname="Facewash" pic="pic/nive.jpg"></Product>
-     <Product sname="Pimple Free" pic="pic/pim.jpg"></Product>
-     <Product sname="Slipper" pic="pic/chappal.jpg"></Product>
-     <Product sname="Shoe" pic="pic/shose.jpg"></Product>
+    <div>
+    <Router>
+    <Routes>
 
+    <Route path="/"element={<Face/>}/>
+    <Route path="/facebook"element={<Facebook/>}/>
+    <Route path='/already'element={<Already/>}/>
+    <Route path='/forget'element={<Forget/>}/>
 
-     <Product sname="Coconut" pic="pic/coco.jpg"></Product>
-     <Product sname="Mango" pic="pic/mango.jpg"></Product>
-     <Product sname="Book" pic="pic/book.jpg"></Product>
-     <Product sname="Banana" pic="pic/banana.jpg"></Product>
-     <Product sname="Orange" pic="pic/orange..jpg"></Product>
-
-     </div> 
-
-
+    </Routes>
+  </Router>
+  </div>
   );
 }
+
 export default App;

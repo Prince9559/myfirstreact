@@ -16,7 +16,7 @@ function Product(props) {
             setCount(count*1 - 1);
         }
     });
-
+    
     return (
         <div className='col1'>
 

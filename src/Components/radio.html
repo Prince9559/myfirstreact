@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Styled Gender Radio Buttons</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .gender-options {
+      display: flex;
+      gap: 15px;
+    }
+
+    .gender-box {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 10px 15px;
+      cursor: pointer;
+      transition: border 0.3s;
+    }
+
+    .gender-box:hover {
+      border-color: #007BFF;
+    }
+
+    .gender-box input[type="radio"] {
+      accent-color: #007BFF;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h3>Select Gender</h3>
+  <div class="gender-options">
+    <label class="gender-box">
+      <span>Female</span>
+      <input type="radio" name="gender" value="female">
+    </label>
+
+    <label class="gender-box">
+      <span>Male</span>
+      <input type="radio" name="gender" value="male">
+    </label>
+
+    <label class="gender-box">
+      <span>Custom</span>
+      <input type="radio" name="gender" value="custom">
+    </label>
+  </div>
+
+</body>
+</html>

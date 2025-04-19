@@ -1,0 +1,79 @@
+
+.col1{
+    background-color: white;
+    width: 410px;
+    height: 290px;
+    margin-top: 135px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1.5px solid blue;
+    box-shadow: 0px 0px 12px blue;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.fec{
+    font-size: 60px;
+    color: blue;
+    position: absolute;
+    top: 10px;
+    margin-left: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+.ppp{
+    position: absolute;
+    margin-left: 110px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.in{
+    width: 356px;
+    height: 40px;
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 24px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.pass{
+    width: 356px;
+    height: 40px;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 24px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.log{
+    width: 361px;
+    height: 43px;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 24px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 30px;
+    background-color: rgba(0, 0, 255, 0.754);
+    color: aliceblue;
+}
+.for{
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 245px;
+    font-size: 15px;
+
+}
+.sign{
+    position: absolute;
+    margin-left: 205px;
+    margin-top: 245px;
+    font-size: 15px;
+    
+}
+.sign:hover{
+    border: black;
+}

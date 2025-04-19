@@ -1,12 +1,15 @@
-import './Home.css';
-function Home()
-{
-return(
-    <div >
-        <h1 className='img'>Prince Kumar</h1>
-        <p >I am Prince</p>
-    </div>
-)
-};
+import { Link, NavLink } from 'react-router-dom';
+function Home() {
 
-export default Home;
+    return <div>
+        
+  <NavLink 
+  to="/contact" 
+  className={({ isActive }) => isActive ? "active" : ""}>
+  Contact
+  </NavLink>
+
+    <h1>Welcome to the Home Page</h1></div>;
+
+}
+  export default Home;
