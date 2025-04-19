@@ -19,7 +19,6 @@
 
         </div></center>
 
-
     )
  };
  export default Forget;
