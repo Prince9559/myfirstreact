@@ -9,8 +9,7 @@ function Facebook(){
             <h1 className='facebook'>Facebook</h1>
             <h2 className='p'>Create a new account</h2>
             <p className='pra'>It's quick and easy.</p>
-            <p className='line'>_______________________________________________________</p>
-
+            
             <input className='input' type='text'placeholder='Name..'></input>
             <input className='int' type='text'placeholder='Surname..'></input>
 
