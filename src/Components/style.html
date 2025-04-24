@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amazon Search Bar</title>
+  <style>
+    body {
+      background-color: #0f1111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .search-bar {
+      display: flex;
+      border-radius: 4px;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+
+    .search-bar select {
+      padding: 8px;
+      border: none;
+      background-color: #e6e6e6;
+      color: #000;
+      cursor: pointer;
+    }
+
+    .search-bar input {
+      padding: 8px 12px;
+      width: 300px;
+      border: none;
+      outline: none;
+    }
+
+    .search-bar button {
+      background-color: #febd69;
+      border: none;
+      padding: 0 16px;
+      cursor: pointer;
+    }
+
+    .search-bar button:hover {
+      background-color: #f3a847;
+    }
+
+    .search-bar button i {
+      font-style: normal;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="search-bar">
+    <select>
+      <option>All</option>
+      <option>Electronics</option>
+      <option>Books</option>
+      <option>Fashion</option>
+    </select>
+    <input type="text" placeholder="Search Amazon.in">
+    <button>🔍</button>
+  </div>
+
+</body>
+</html>

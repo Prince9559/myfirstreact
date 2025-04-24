@@ -1,0 +1,10 @@
+.local{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 162px;
+    margin-top: -50px;
+}
+.local:hover{
+    border: 2px solid white;
+    
+}

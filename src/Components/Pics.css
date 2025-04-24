@@ -1,0 +1,9 @@
+.pic{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.pic:hover{
+    border: 2px solid white;
+}

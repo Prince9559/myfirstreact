@@ -1,0 +1,185 @@
+.back {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* full screen height */
+}
+
+.cool {
+    background-color: black;
+    width: 345px;
+    height: 650px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 0.1px solid rgba(245, 222, 179, 0.436);
+
+}
+
+
+.instagram-style {
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    color: aliceblue;
+    position: absolute;
+    margin-left: 70px;
+  }
+
+.pra{
+    color: aliceblue;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 43px;
+    font-size: 18px;
+}
+.prag{
+    color: aliceblue;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 100px;
+    font-size: 18px;
+}
+.faces{
+    width: 275px;
+    height: 35px;
+    position: absolute;
+    margin-top: 178px;
+    margin-left: 38px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid blue;
+    background-color: rgba(0, 0, 255, 0.492);
+}
+.ff{
+    color: aliceblue;
+}
+.or{
+    color: aliceblue;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 240px;
+}
+.inputs{
+    width: 267px;
+    height: 35px;
+    margin-top: 290px;
+    margin-left: 38px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: rgba(72, 62, 62, 0.469);
+    border: 0.1px solid  rgba(245, 222, 179, 0.436);
+    color: aliceblue;
+}
+.inputss{
+    width: 267px;
+    height: 35px;
+    position: absolute;
+    margin-top: 336px;
+    margin-left: 38px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: rgba(72, 62, 62, 0.469);
+    border: 0.1px solid  rgba(245, 222, 179, 0.436);
+    color: aliceblue;
+}
+.input{
+    width: 267px;
+    height: 35px;
+    position: absolute;
+    margin-top: 382px;
+    margin-left: 38px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: rgba(72, 62, 62, 0.469);
+    border: 0.1px solid  rgba(245, 222, 179, 0.436);
+    color: aliceblue;
+}
+.inpu{
+    width: 267px;
+    height: 35px;
+    position: absolute;
+    margin-top: 428px;
+    margin-left: 38px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: rgba(72, 62, 62, 0.469);
+    border: 0.1px solid  rgba(245, 222, 179, 0.436);
+    color: aliceblue;
+}
+.design{
+    position: absolute;
+    margin-top: 478px;
+    color: aliceblue;
+    font-size: 12px;
+    margin-left: 42px;
+}
+.designer{
+    position: absolute;
+    margin-top: 495px;
+    color: aliceblue;
+    font-size: 12px;
+    margin-left: 42px;
+}
+.learn{
+    position: absolute;
+    margin-top: 494px;
+    margin-left: 234px;
+}
+.pk{
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 45px;
+    color: aliceblue;
+    font-size: 12px;
+    
+}
+.kk{
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 215px;
+    font-size: 12px;
+    color: blue;
+}
+.kp{
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 255px;
+    font-size: 12px;
+    color: blue;
+}
+.policy{
+    position: absolute;
+    margin-top: 548px;
+    margin-left: 100px;
+    font-size: 12px;
+    color: blue;
+}
+.and{
+    position: absolute;
+    margin-top: 548px;
+    margin-left: 140px;
+    font-size: 12px;
+    color: white;
+}
+.cookes{
+    position: absolute;
+    margin-top: 548px;
+    margin-left: 170px;
+    font-size: 12px;
+    color: blue;
+}
+.sign{
+    width: 275px;
+    height: 35px;
+    position: absolute;
+    margin-top: 590px;
+    margin-left: 38px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid blue;
+    background-color: rgba(0, 0, 255, 0.492);
+    color: aliceblue;
+    font-size: 18px;
+}

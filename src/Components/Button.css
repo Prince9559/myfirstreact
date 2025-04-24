@@ -1,0 +1,11 @@
+.but{
+display: flex;
+flex-wrap: wrap;
+margin-left: 738px;
+margin-top: -45.6px;
+border: 1px solid rgba(240, 248, 255, 0.763); 
+background-color: rgba(240, 248, 255, 0.847);    
+}
+.but:hover{
+    border: 2px solid orange;
+}

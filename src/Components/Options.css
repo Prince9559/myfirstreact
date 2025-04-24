@@ -1,0 +1,14 @@
+.option{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90px;
+    height: 45px;
+    margin-left: 369px;
+    margin-top: -55px;
+    border: 1px solid rgba(255, 255, 255, 0.845);
+    background-color: rgba(240, 248, 255, 0.847);
+    font-size: 18px;
+}
+.option:hover{
+    border: 2px solid orange;
+}
