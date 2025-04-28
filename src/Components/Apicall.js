@@ -14,19 +14,19 @@ function Apicall() {
       });
   };
 
-  // const showData = () => {
-  // const data = localStorage.getItem("products");
-  //   if (data) 
-  //   {
-  //     setProducts(JSON.parse(data));
-  //   }
-  // };
-  // const clearData = () => 
-  // {
+  const showData = () => {
+  const data = localStorage.getItem("products");
+    if (data) 
+    {
+      setProducts(JSON.parse(data));
+    }
+  };
+  const clearData = () => 
+  {
 
-  //   localStorage.removeItem("products");
+    localStorage.removeItem("products");
 
-  // };
+  };
 
   return (
     <div>
@@ -34,8 +34,8 @@ function Apicall() {
         <tbody>
       <tr>  
       <td><button onClick={show}>Store</button></td>
-      {/* <td><button onClick={showData}>Show Data</button></td>
-      <td><button onClick={clearData}>Clear Data</button></td> */}
+      <td><button onClick={showData}>Show Data</button></td>
+      <td><button onClick={clearData}>Clear Data</button></td>
       </tr>
 
       </tbody>

@@ -38,13 +38,13 @@
     {
     "name": "Bag",
     "descrition": "Bag",
-    "price": "300",
+    "price": 300,
     "image": "pic/bag.jpg"
     },
     {
     "name": "Banana",
     "descrition": "Fruits",
-    "price": "60",
+    "price": 60,
     "image": "pic/banana.jpg"
     }
     ]
