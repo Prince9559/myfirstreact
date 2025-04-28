@@ -3,13 +3,12 @@
     "name": "pepsi",
     "description": "Cold Drink",
     "price": 200,
-    "image": "pic/pepsi.jpg"
     },
     {
     "name": "coke",
     "description": "Cold Drink",
     "price": 150,
-    "image": "pic/coke.jpg"
+    "image": "pic/kamal.jpg"
     },
     {
     "name": "apple",
@@ -27,6 +26,6 @@
     "name": "orange",
     "description": "Fruits",
     "price": 50,
-    "image": "pic/orange.jpg"
+    "image": "pic/lily.jpg"
     }
     ]
