@@ -1,9 +1,4 @@
-
-
-        // const baseURL=` https://prince9559.github.io/myfirstreact/src/Components/Search.json`;
-
-
-        import { useState } from "react";
+import { useState } from "react";
 import axios from 'axios';
 
 function Apicall() {
@@ -20,19 +15,21 @@ function Apicall() {
   };
 
   const showData = () => {
-    const data = localStorage.getItem("products");
-    if (data) {
+  const data = localStorage.getItem("products");
+    if (data) 
+    {
       setProducts(JSON.parse(data));
     }
   };
-  const clearData = () => {
+  const clearData = () => 
+  {
     localStorage.removeItem("products");
   };
 
   return (
     <div>
         <table border="1" >
-            <tbody>
+        <tbody>
       <tr>  
       <td><button onClick={show}>Store</button></td>
       <td><button onClick={showData}>Show Data</button></td>
@@ -42,13 +39,15 @@ function Apicall() {
       </tbody>
       </table>
      
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px',color:"red",margin:"50px",marginLeft:"70px" }}>
+  <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px',color:"red",margin:"50px",marginLeft:"70px" }}>
+  
   {products.map((product) => ( 
     <li style={{ listStyle: 'none', border: '2px solid black', padding: '10px', width: '200px' }}>
       {product.name}
       <p>Price: {product.price}</p>
       <img src={product.image} width="100"/>
     </li>
+    
   ))}
 </div>
 
