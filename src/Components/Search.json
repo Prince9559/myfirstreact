@@ -28,5 +28,23 @@
     "description": "Fruits",
     "price": 50,
     "image": "pic/lily.jpg"
+    },
+    {
+    "name": "Lily",
+    "description": "Flowers",
+    "price": 10,
+    "image": "pic/lily.jpg"
+    },
+    {
+    "name": "Bag",
+    "descrition": "Bag",
+    "price": "300",
+    "image": "pic/bag.jpg"
+    },
+    {
+    "name": "Banana",
+    "descrition": "Fruits",
+    "price": "60",
+    "image": "pic/banana.jpg"
     }
     ]
