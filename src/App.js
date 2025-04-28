@@ -1,24 +1,28 @@
-  import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Face from './Components/Face';
-import Facebook from './Components/Facebook';
-import Already from './Components/Already';
-import Forget from './Components/Forget';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Home from './Components/Home';
+import Search from './Components/Search';
+import Product from './Components/Product';
+
+// import Apicall from "./Components/Apicall";
 
 function App() {
   return (
-    <div>
     <Router>
-    <Routes>
+      <Routes>
 
-    <Route path="/"element={<Face/>}/>
-    <Route path="/facebook"element={<Facebook/>}/>
-    <Route path='/already'element={<Already/>}/>
-    <Route path='/forget'element={<Forget/>}/>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/search"element={<Search/>}/>
+      <Route path="/product"element={<Product/>}/>
 
-    </Routes>
-  </Router>
-  </div>
+      </Routes>
+    </Router>
+
+    // <div>
+
+    //   <Apicall></Apicall>
+      
+    // </div>
+
   );
 }
 

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage Example</title>
+</head>
+<body>
+    <h1>Local Storage Example</h1>
+    <button onclick="storeData()">Store Data</button>
+    <button onclick="retrieveData()">Retrieve Data</button>
+    <button onclick="removeItem()">Remove Item</button>
+    <button onclick="clearStorage()">Clear Storage</button>
+    <p id="output"></p>
+
+    <script>
+        function storeData() {
+            // Storing data in Local Storage
+            localStorage.setItem('username', 'Champak Roy');
+            localStorage.setItem('color', 'blue');
+            localStorage.setItem('language', 'JavaScript');
+            document.getElementById('output').innerHTML = 'Data stored successfully!';
+        }
+
+        function retrieveData() {
+            // Retrieving and displaying all keys and their values
+            document.getElementById('output').innerHTML = '';
+            for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                const value = localStorage.getItem(key);
+                document.getElementById('output').innerHTML += `${key}: ${value}<br>`;
+            }
+        }
+
+        function removeItem() {
+            // Removing an item from Local Storage
+            localStorage.removeItem('username');
+            document.getElementById('output').innerHTML = 'Item removed successfully!';
+        }
+
+        function clearStorage() {
+            // Clearing Local Storage
+            localStorage.clear();
+            document.getElementById('output').innerHTML = 'Storage cleared successfully!';
+        }
+    </script>
+</body>
+</html>

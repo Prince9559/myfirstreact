@@ -1,22 +1,16 @@
-
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink,useParams } from 'react-router-dom';
 function Contact() {
-return<div> <h1>Welcome to the Contact Page</h1>
+  const { id } = useParams();
+    return<div> <h1>Welcome to the Contact Page</h1>
     
-<Link to="/about">About</Link>
+    <Link to="/about">About {id}</Link>
+    <Link to="/search">SearchPage</Link>
 
-<NavLink
-
+<NavLink 
   to="/contact" 
   className={({ isActive }) => isActive ? "active" : ""}>
   Contact
-  
-</NavLink>
-
-<Link to="/">Home</Link>
-
-
-</div>;
-  
-}
+  </NavLink>
+  </div>
+  }
   export default Contact;
