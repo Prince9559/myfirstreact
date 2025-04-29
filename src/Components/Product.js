@@ -1,54 +1,41 @@
- import './Product.css';
- import React, { useState } from 'react';
- import Search from './Search';
+import React, { useState } from 'react';
+import './Product.css';
 
- import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+function Product(props) {
+    const [count, setCount] = useState(0);
 
- function Product(props) {
-     
-     const [count, setCount] = useState(0); 
-     
-     const add = (() =>{
-     setCount(count*1 + 1)
-     });
- 
-     const negative = (() =>{         
-        if (count > 0) 
-        {
+    const add = () => {
+        setCount(count + 1);
+    };
 
-        setCount(count*1 - 1);
-
+    const negative = () => {
+        if (count > 0) {
+            setCount(count - 1);
         }
-     });
-     
-     let productlink=`product/?productname=${props.productname}`;
-     
-     return(
-     <div className='col1'>
-    
-           <Link to="/search"><img className='col3' alt="imgurl" src={props.pic}></img></Link>   
+    };
 
-            <center><h2 className='name'>{props.sname}</h2></center>
+    // Prepare link with productname and price as query parameters
+    let productlink = `/search?productname=${props.pic}&price=${props.price}`;
 
-            
-            <div className='col2'>
- 
-             {/* <Link className='border' to={productlink}>{props.sname}</Link> */}
+    return (
+        <div className="col1">
+            <a href={productlink} target="_blank"rel="noopener noreferrer">
+                <img className="col3" alt={props.sname} src={props.pic} />
+            </a>
 
-            
+            <center><h2 className="name">{props.sname}</h2></center>
 
+            <div className="col2">
                 <div className="text">
- 
-                 <button onClick={negative}>−</button>
-                 <span>{count}</span>
-                 <button onClick={add}>+</button>
- 
+                    <button onClick={negative}>−</button>
+                    <span>{count}</span>
+                    <button onClick={add}>+</button>
                 </div>
-             </div>
- 
-             <p>{props.children}</p>
- 
-         </div>
-     )
- };
- export default Product;
+            </div>
+
+            <p>{props.children}</p>
+        </div>
+    );
+}
+
+export default Product;

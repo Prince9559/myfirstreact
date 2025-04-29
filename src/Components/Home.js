@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Product from './Product';
+import { GiSunflower } from 'react-icons/gi';
 function Home() {
 
     return (
@@ -7,39 +8,35 @@ function Home() {
             {/* <Link to="/search?price=50&productname=Campa">Go to Search</Link> */}
             
 
-            {/* <Link to="/search?price=10&productname=Rose?pic=pic/rose.jpg">Rose */}
-            <Product productname="Rose" sname="Rose" pic="pic/rose.jpg"/>
-            {/* </Link> */}
-
+            <Product productname="Rose" sname="Rose" pic="pic/rose.jpg"price={30}/>
             
-            <Product productname="Sunflower" sname="SunFlower" pic="/pic/sun.jpg" />
+            <Product productname="Sunflower" sname="SunFlower" pic="/pic/sun.jpg"price={20}/>
             
+            <Product productname="Kamal" sname="Kamal" pic="/pic/kamal.jpg"price={25}/>
 
-            <Product productname="Kamal" sname="Kamal" pic="/pic/kamal.jpg" />
+            <Product productname="Flower" sname="Flowers" pic="/pic/ggg.jpg"price={50} />
 
-            <Product productname="Flower" sname="Flowers" pic="/pic/ggg.jpg" />
+            <Product productname="Lily" sname="Lily" pic="/pic/li.jpg"price={60} />
 
-            <Product productname="Lily" sname="Lily" pic="/pic/li.jpg" />
+            <Product productname="Men's facewash" sname="Men's Facewash" pic="/pic/men.jpg"price={120} />
 
-            <Product productname="Men's facewash" sname="Men's Facewash" pic="/pic/men.jpg" />
+            <Product productname="Fashwash" sname="Facewash" pic="/pic/nive.jpg"price={150} />
 
-            <Product productname="Fashwash" sname="Facewash" pic="/pic/nive.jpg" />
+            <Product productname="Pimple free" sname="Pimple Free" pic="/pic/pim.jpg" price={200}/>
 
-            <Product productname="Pimple free" sname="Pimple Free" pic="/pic/pim.jpg" />
+            <Product productname="Slipper" sname="Slipper" pic="/pic/chappal.jpg" price={140}/>
 
-            <Product productname="Slipper" sname="Slipper" pic="/pic/chappal.jpg" />
+            <Product productname="Shoe" sname="Shoe" pic="/pic/shose.jpg"price={350} />
 
-            <Product productname="Shoe" sname="Shoe" pic="/pic/shose.jpg" />
+            <Product productname="Coconut" sname="Coconut" pic="/pic/coco.jpg"price={15} />
 
-            <Product productname="Coconut" sname="Coconut" pic="/pic/coco.jpg" />
+            <Product productname="Mango" sname="Mango" pic="/pic/mango.jpg"price={80} />
 
-            <Product productname="Mango" sname="Mango" pic="/pic/mango.jpg" />
+            <Product productname="Book" sname="Book" pic="/pic/book.jpg"price={90} />
 
-            <Product productname="Book" sname="Book" pic="/pic/book.jpg" />
+            <Product productname="Banana" sname="Banana" pic="/pic/banana.jpg"price={60} />
 
-            <Product productname="Banana" sname="Banana" pic="/pic/banana.jpg" />
-
-            <Product productname="Bag" sname="Bag" pic="/pic/bag.jpg" />
+            <Product productname="Bag" sname="Bag" pic="/pic/bag.jpg"price={400} />
 
         </div>);
 
