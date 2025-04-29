@@ -8,7 +8,8 @@ function Product(props) {
         setCount(count + 1);
     };
 
-    const negative = () => {
+    const negative = () => 
+        {
         if (count > 0) {
             setCount(count - 1);
         }

@@ -1,0 +1,85 @@
+{
+    "Components": "Product",
+    "imports":["React","useState","./Product.css"],
+
+    "state": 
+    {
+    "count": 0
+    },
+    "functions": {
+      "add": "Increases count by 1",
+      "negative": "Decreases count by 1 if greater than 0"
+    },
+    "props": [
+      "pic",
+      "price",
+      "sname",
+      "children"
+    ],
+    "productLink": "/search?productname={props.pic}&price={props.price}",
+    "render": {
+      "structure": [
+        {
+          "element": "div",
+          "className": "col1",
+          "children": [
+            {
+              "element": "a",
+              "href": "productLink",
+              "target": "_blank",
+              "rel": "noopener noreferrer",
+              "children": [
+                {
+                  "element": "img",
+                  "className": "col3",
+                  "alt": "{props.sname}",
+                  "src": "{props.pic}"
+                }
+              ]
+            },
+            {
+              "element": "center",
+              "children": [
+                {
+                  "element": "h2",
+                  "className": "name",
+                  "text": "{props.sname}"
+                }
+              ]
+            },
+            {
+              "element": "div",
+              "className": "col2",
+              "children": [
+                {
+                  "element": "div",
+                  "className": "text",
+                  "children": [
+                    {
+                      "element": "button",
+                      "onClick": "negative",
+                      "text": "−"
+                    },
+                    {
+                      "element": "span",
+                      "text": "{count}"
+                    },
+                    {
+                      "element": "button",
+                      "onClick": "add",
+                      "text": "+"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "element": "p",
+              "text": "{props.children}"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

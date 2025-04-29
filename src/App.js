@@ -1,27 +1,15 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Home from './Components/Home';
-import Search from './Components/Search';
-import Product from './Components/Product';
-
-// import Apicall from "./Components/Apicall";
+import Downloadproduct from "./Components/Downloadproduct";
+import Read from "./Components/Read";
 
 function App() {
   return (
-    <Router>
-      <Routes>
+    
+    <div>
 
-      <Route path="/" element={<Home/>}/>
-      <Route path="/search"element={<Search/>}/>
-      <Route path="/product"element={<Product/>}/>
+    <Downloadproduct></Downloadproduct>
+    <Read></Read>
 
-      </Routes>
-    </Router>
-
-    // <div>
-
-    //   <Apicall></Apicall>
-      
-    // </div>
+    </div>
 
   );
 }

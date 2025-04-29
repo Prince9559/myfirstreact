@@ -21,6 +21,8 @@ function Apicall() {
       setProducts(JSON.parse(data));
     }
   };
+
+
   const clearData = () => 
   {
 
@@ -43,11 +45,12 @@ function Apicall() {
      
   <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px',color:"red",margin:"50px",marginLeft:"70px" }}>
   
-  {products.map((product) => ( 
+  {products.map((product)=>( 
+
     <li style={{ listStyle: 'none', border: '2px solid black', padding: '10px', width: '200px' }}>
-      {product.name}
-      <p>Price: {product.price}</p>
-      <img src={product.image} width="100"/>
+    {product.name}
+    <p>Price: {product.price}</p>
+    <img src={product.image} width="100"/>
     </li>
 
   ))}
