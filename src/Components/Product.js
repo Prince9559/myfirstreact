@@ -8,24 +8,23 @@ function Product(props) {
         setCount(count + 1);
     };
 
-    const negative = () => 
-        {
+    const negative = () => {
         if (count > 0) {
             setCount(count - 1);
         }
     };
 
     // Prepare link with productname and price as query parameters
-    let productlink = `/search?productname=${props.pic}&price=${props.price}`;
+    let productlink = `/single?productname=${props.sname}`;
 
     return (
         <div className="col1">
-            <a href={productlink} target="_blank"rel="noopener noreferrer">
+            <a href={productlink} target="_blank" rel="noopener noreferrer">
                 <img className="col3" alt={props.sname} src={props.pic} />
             </a>
 
             <center><h2 className="name">{props.sname}</h2></center>
-
+            <h2>Price{props.price}</h2>
             <div className="col2">
                 <div className="text">
                     <button onClick={negative}>−</button>

@@ -31,25 +31,22 @@ function Read(){
       {products.map((product)=>( 
     
         <li className="styles">
-        <Product name={product.name}src={product.image}></Product>
+            
+        <Product name={product.name}></Product>
+        <Product pic={product.image}></Product>
+        {/* <Product Price:₹{product.price}></Product> */}
 
-        
-        
+        {/* <center><h2 className='heading'><b><i>{product.name}</i></b></h2></center> */}
 
-        {/* <center><h2 className='heading'><b><i>{product.name}</i></b></h2></center>
+        {/* <img className='img'src={product.image}/> */}
 
-        <img className='img'src={product.image}/>
-
-        <h3 className='price'><i>Price: ₹{product.price}</i></h3> */}
+        <h3 className='price'><i>Price: ₹{product.price}</i></h3> 
 
         </li>
     
       ))}
 
-      {/* <Product></Product> */}
-
     </div>
-
     </div>
         
       );
