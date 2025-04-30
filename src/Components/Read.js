@@ -1,10 +1,10 @@
 import './Read.css';
+import Product from './Product';
 import { useState } from "react";
 
 function Read(){
     
     const[products,setProducts]=useState([]);
-
     const showData =()=>{
 
         const data=localStorage.getItem("products");
@@ -15,15 +15,14 @@ function Read(){
         console.log(data);
     };
     return (
-        <div>
-            <table border="1" >
-            <tbody>
+        <div className='back'>
+          <table>
+          <tbody>
           <tr>  
-    
+
           <td><button onClick={showData}>Show Data</button></td>
     
           </tr>
-    
           </tbody>
           </table>
          
@@ -32,12 +31,23 @@ function Read(){
       {products.map((product)=>( 
     
         <li className="styles">
-        {product.name}
-        <p>Price: ₹{product.price}</p>
-        <img src={product.image} width="100"/>
+        <Product name={product.name}src={product.image}></Product>
+
+        
+        
+
+        {/* <center><h2 className='heading'><b><i>{product.name}</i></b></h2></center>
+
+        <img className='img'src={product.image}/>
+
+        <h3 className='price'><i>Price: ₹{product.price}</i></h3> */}
+
         </li>
     
       ))}
+
+      {/* <Product></Product> */}
+
     </div>
 
     </div>

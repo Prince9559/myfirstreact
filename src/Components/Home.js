@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Product from './Product';
-import { GiSunflower } from 'react-icons/gi';
+
 function Home() {
 
     return (
