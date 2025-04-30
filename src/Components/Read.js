@@ -32,7 +32,7 @@ function Read(){
     
         <li className="styles">
             
-        <Product name={product.name}></Product>
+        <Product pic="" name={product.name}></Product>
         <Product pic={product.image}></Product>
         {/* <Product Price:₹{product.price}></Product> */}
 

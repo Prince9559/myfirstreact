@@ -16,6 +16,8 @@ function Product(props) {
 
     // Prepare link with productname and price as query parameters
     let productlink = `/single?productname=${props.sname}`;
+    const jsonproduct = JSON.parse(props.json);
+    console.log(jsonproduct);
 
     return (
         <div className="col1">
