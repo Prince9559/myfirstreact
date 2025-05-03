@@ -17,10 +17,12 @@
 //    const oic =queryParams.get("pic");
  
    return (
-    <div>
-<img src={imgurl} alt={imgurl}style={{width:"200px",height:"200px",marginLeft:"20px",marginTop:"30px"}}></img>
+  <div>
+<img src={imgurl}style={{width:"200px",height:"200px",marginLeft:"20px",marginTop:"30px"}}></img>
         
 <h2 style={{marginLeft:"20px"}}>Price : ₹{price}</h2>
+
+
         
   </div>
    );

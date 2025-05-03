@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes fadeAnimation {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+.fading-text {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+animation: fadeAnimation 2s infinite;
+color: blue;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

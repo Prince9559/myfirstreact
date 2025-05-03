@@ -1,0 +1,23 @@
+.col{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@keyframes fadeAnimation {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  .fading-texts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  animation: fadeAnimation 2s infinite;
+  color:cornflowerblue;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
