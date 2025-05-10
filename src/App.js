@@ -1,26 +1,30 @@
+import logo from "./logo.svg";
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Downloadproduct from "./Components/Downloadproduct";
-import Shopping from "./Components/Shopping";
-
+import LineChart from "./Components/LineChart";
 function App() {
+  const data = {
+    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    data: [1, 2, 3, 4, 5, 6],
+    title:"My Line"
+  };
   return (
-    <Router>
-      <div>
-        <h1 className="fading-text"><i>Welcome to the Shopping Market</i></h1>
-
-        <div style={{ textAlign: "center", marginBottom: "20px" }}>
-          <Link to="/shopping" style={{ marginRight: "20px" }}>Shopping</Link>
-          <Link to="/download">Store Data</Link>
-        </div>
-
-        <Routes>
-          <Route path="/shopping" element={<Shopping />} />
-          <Route path="/download" element={<Downloadproduct />} />
-        </Routes>
-      </div>
-    </Router>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+      <LineChart data={data} />
+    </div>
   );
 }
-
 export default App;

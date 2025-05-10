@@ -14,15 +14,18 @@ function Downloadproduct() {
                 console.log("Data stored successfully");
                 navigate("/shopping"); 
             })
+
             .catch((error) => {
-                console.error("Error storing data", error);
+            console.error("Error storing data", error);
             
             });
     });
 
     return (
         <div>
+
             <p>Storing product data...</p>
+            
         </div>
     );
 }

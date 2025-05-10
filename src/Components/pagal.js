@@ -1,36 +1,28 @@
- import { useEffect, useState } from "react";
- import Product from "./Product";
- import './Shopping.css';
- 
- function Shopping() {
-     const [products, setProducts] = useState([]);
- 
-     useEffect(() => {
-         const data = localStorage.getItem("products");
-         if (data) 
-         {
-             setProducts(JSON.parse(data));
-         }
-     }); 
- 
-     return (
-         <div>
-             <h2>Shopping Products</h2>
-             <div className="col">
- 
-                 {products.map((product) => (
-                     <Product
-                         price={product.price}
-                         sname={product.name}
-                         pic={product.image}
-                         json={JSON.stringify(product)}
-                         
-                     />
-                 ))}
-             </div>
-         </div>
-     );
- }
- 
- export default Shopping;
- 
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Downloadproduct from "./Components/Downloadproduct";
+import Shopping from "./Components/Shopping";
+
+function App() {
+  return (
+    <Router>
+      <div>
+        <h1 className="fading-text"><i>Welcome to the Shopping Market</i></h1>
+
+        <div style={{ textAlign: "center", marginBottom: "20px" }}>
+
+          <Link to="/shopping" style={{ marginRight: "20px" }}>Shopping</Link>
+          <Link to="/download">Store Data</Link>
+          
+        </div>
+
+        <Routes>
+          <Route path="/shopping" element={<Shopping />} />
+          <Route path="/download" element={<Downloadproduct />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+}
+
+export default App;
