@@ -4,10 +4,10 @@ function Face(){
     return(
         <div>
 
-           <center><h1>Facebook Sign up</h1>
+           <center><h1>Instagram Sign up</h1>
 
-            <button><Link to="facebook">Click Here</Link></button>
-            {/* <button><Link to="/instagram">Click Here</Link></button> */}
+            {/* <button><Link to="facebook">Click Here</Link></button> */}
+            <button><Link to="/instagram">Click Here</Link></button>
             
 
             </center>

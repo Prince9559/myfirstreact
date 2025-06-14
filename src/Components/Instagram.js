@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
 import './Instagram.css';
-import Facebook from './Facebook';
 
 function Instagram() {
     return (
         <div className='back'>
             <div className='cool'>
+
 
             <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"></link>
             <h1 className='instagram-style'>Instagram</h1>
@@ -14,7 +14,7 @@ function Instagram() {
 
             <p className='prag'>from your friends.</p>
 
-            <button className='faces'><Link className='ff' to="/facebook"><b>Lon in with Facebook</b></Link></button>
+            <button className='faces'><b>Lon in with Facebook</b></button>
 
             <p className='or'>___________ OR _____________</p>
 

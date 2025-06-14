@@ -49,8 +49,9 @@
     margin-left: 38px;
     font-size: 15px;
     border-radius: 8px;
-    border: 1px solid blue;
+    border: 1px solid rgba(0, 0, 255, 0.799);
     background-color: rgba(0, 0, 255, 0.492);
+    color: aliceblue;
 }
 .ff{
     color: aliceblue;
@@ -58,7 +59,7 @@
 .or{
     color: aliceblue;
     position: absolute;
-    margin-left: 50px;
+    margin-left: 90px;
     margin-top: 240px;
 }
 .inputs{
@@ -126,6 +127,7 @@
     position: absolute;
     margin-top: 494px;
     margin-left: 234px;
+    color: blue;
 }
 .pk{
     position: absolute;
