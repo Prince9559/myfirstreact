@@ -69,17 +69,23 @@ function WeatherApp() {
     }
 
     return (
-        <div>
+        <div className='back'>
 
-            <img className='ball' src='pic/sir.jpg'></img>
+<div className='search-section'>
+  <div className='input-wrapper'>
+    <span className='search-icon'>🔍</span>
+    <input
+      className='fading-border'type="text"value={inputCity}onChange={handleInputChange}placeholder="Search.."/>
+  </div>
 
-               <span className='search-icon'>🔍</span>
-            
-                <input  className='fading-border' type="text"value={inputCity} onChange={handleInputChange}placeholder="Search.."/>
-                <br></br>
-                <button onClick={handleSearch}className='col2'>Get Weather</button>
-                <button className='col7'onClick={storeData}>Store Data</button>
-                <button className='col8'onClick={retrieveData}>Retrieve Data</button>
+  <div className='button-group'>
+    <button onClick={handleSearch} className='col2'>Get Weather</button>
+    {/* <button onClick={storeData} className='col7'>Store Data</button> */}
+    {/* <button onClick={retrieveData} className='col8'>Retrieve Data</button> */}
+  </div>
+</div>
+
+
 
                 <p id="output"></p>
 
